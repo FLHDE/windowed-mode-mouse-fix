@@ -1,5 +1,5 @@
 # Windowed Mode Mouse Fix
-Fixes the mouse snapping and stuttering that occurs when playing games in windowed mode (e.g. cursor warping to the center when it touches the window border). This fix only works for games that use DirectInput 8 (`dinput8.dll`) for handling mouse input.
+Fixes the mouse snapping and stuttering that occurs when playing games in windowed mode (e.g. cursor warping to the center when it touches the window border). This fix only works for games that use DirectInput 8 (`dinput8.dll`) to handle mouse input.
 
 Credits go to [Laz](https://github.com/Lazrius) and [adoxa](https://github.com/adoxa) for the original hex-edit implementation. Additionally, thanks to [elishacloud](https://github.com/elishacloud) for inspiration on wrapping `dinput8.dll`.
 
